@@ -2,8 +2,8 @@
 /*
  * Tokopay mengirim callback menggunakan method POST dengan data di letakan di BODY request
  */
-$merchant_id = "YOUR_MERCHANT_ID";
-$secret_key = "YOUR_SECRET_ID";
+$merchant_id = "M240509URZTI530";
+$secret_key = "5bc43dda41b1893283f01d3e2c5ba567076fbe7ac80840576a701fdc9dfa23ca";
 $json = file_get_contents('php://input');
 $data = json_decode($json,true);
 $simpan_file = file_put_contents("callback-tokopay.txt",$json); //simpan ke file json nya
