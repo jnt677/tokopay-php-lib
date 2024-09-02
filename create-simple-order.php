@@ -4,8 +4,8 @@ require 'tokopay.lib.php';
 merchant id dan secret_key bisa di temukan di link ini :
 https://dash.tokopay.id/pengaturan/secret-key
 */
-$merchant_id = "YOUR_MERCHANT_ID"; //put your merchant id here
-$secret_key = "YOUR_SECRET_KEY"; //put your secret key here
+$merchant_id = "M240509URZTI530"; //put your merchant id here
+$secret_key = "5bc43dda41b1893283f01d3e2c5ba567076fbe7ac80840576a701fdc9dfa23ca"; //put your secret key here
 $tokopay = New Tokopay($merchant_id,$secret_key);
 
 /*
