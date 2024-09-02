@@ -9,8 +9,8 @@ use App\Models\Invoice;
 class TokopayCallbackController extends Controller
 {
     // Isi dengan secret key anda
-    protected $merchant_id = 'YOUR_MERCHANT_ID';
-    protected $secret_key = 'YOUR_SECRET_KEY';
+    protected $merchant_id = 'M240509URZTI530';
+    protected $secret_key = '5bc43dda41b1893283f01d3e2c5ba567076fbe7ac80840576a701fdc9dfa23ca';
 
     public function handle(Request $request)
     {
